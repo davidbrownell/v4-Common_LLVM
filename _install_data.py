@@ -106,7 +106,7 @@ else:
         InstallData(
             "standard",
             DownloadSevenZipInstaller(
-                "https://github.com/davidbrownell/v4-Common_LLVM/releases/download/v15.0.2-alpha.4/install.7z", # TODO
+                "https://github.com/davidbrownell/v4-Common_LLVM/releases/download/v15.0.2-alpha.4/install.7z",
                 "f4728ace762ff628df9baa9d67dbf256f3331059f15eea05385b556ac9da6cc7",
                 _root_dir / Constants.TOOLS_SUBDIR / "LLVM" / "v15.0.2" / CurrentShell.family_name / "x64",
                 "alpha-4",
